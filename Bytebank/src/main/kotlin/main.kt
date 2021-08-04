@@ -45,7 +45,7 @@ fun testaCondicoes(saldo: Double) {
         println("Conta negativa")
     }
 
-    /* when {
+    /*  when {
            saldo > 0.0 -> println("Conta é positiva")
            saldo == 0.0 -> println("Conta é neutra")
            else -> println("Conta negativa")
