@@ -13,6 +13,26 @@ fun main() {
         println()
         i++
     }
+
+//    for (i in 5 downTo 1) {
+//
+//        /* if(i==4) {
+//            continue
+//        } */
+//
+//        val titular = "Joana $i"
+//        val numeroConta = 1000 + i
+//        var saldo = i + 10.0
+//
+//
+//        println("Titular $titular")
+//        println("Número da conta $numeroConta")
+//        println("Saldo da conta $saldo")
+//        println()
+//
+//    }
+
+    //testaCondicoes(saldo)
 }
 
 fun testaCondicoes(saldo: Double) {
@@ -24,6 +44,11 @@ fun testaCondicoes(saldo: Double) {
     } else {
         println("Conta negativa")
     }
-    testaCondicoes(saldo)
+
+    /* when {
+           saldo > 0.0 -> println("Conta é positiva")
+           saldo == 0.0 -> println("Conta é neutra")
+           else -> println("Conta negativa")
+     } */
 }
 
